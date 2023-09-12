@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-LightGrayishBlue">
+    <nav class="relative background container mx-auto p-6">
+      <!-- Flex container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+
+        <div class="pt-2">
+          <img
+            class="mb-24 sm:ml-14 sm:ml-20 md:ml-20"
+            src="img/logo.svg"
+            alt=""
+          />
+        </div>
+        <!-- Menu Items -->
+        <div class="text-black space-x-6 mb-20 md:hidden sm:flex">
+          <a href="#">Features</a>
+          <a href="#">Team</a>
+          <a href="#">Sign in</a>
+        </div>
+        <div class="hidden space-x-6 md:flex mb-24 text-black mr-24">
+          <a href="#">Features</a>
+          <a href="#">Team</a>
+          <a href="#">Sign in</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Intro -->
+
+    <div class="lg:flex md:flex sm:block">
+      <div class="lg:block md:block">
+        <div class="justify-center items-center ml-14">
+          <img
+            class="illustration2 mb-12 md:hidden sm:flex w-52"
+            src="./img/illustration-1.svg"
+            alt=""
+          />
+        </div>
+        <h1
+          class="text-VeryDarkBlue font-bold intro-h1 text-4xl lg:ml-20 md:ml-20 intro-h1"
+        >
+          All you file in 0ne secure <br />
+          location, accessible anywhere.
+        </h1>
+        <p class="text-VeryDarkBlue intro-p text-1xl lg:ml-20 md:ml-20 mt-5">
+          Fylo stores your important files in one secure location. Access <br />
+          whereever you need, share and collaborate with friends,family, <br />
+          and co.workers.
+        </p>
+
+        <!-- Input Container -->
+        <div class="hidden md:flex flex flex-col justify-between">
+          <form>
+            <div class="flex space-x-3 mt-9 w-10/12 h-14 ml-20">
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-md focus:outline-none border-black border-2"
+                placeholder="email@example.com"
+              />
+              <button
+                class="px-6 py-2 text-white rounded-md bg-BrightBlue focus:outline-none"
+              >
+                Get started for free
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="md:hidden sm:flexflex flex-col justify-between">
+          <form>
+            <div class="ml-12 flex space-x-3 mt-9 w-80 h-14 ml-24">
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-md focus:outline-none border-black border-2"
+                placeholder="email@example.com"
+              />
+            </div>
+          </form>
+          <button
+            class="ml-12 w-80 mt-5 h-14 px-6 py-2 text-white rounded-md bg-BrightBlue :bg-LightGrayishBlue focus:outline-none ml-24"
+          >
+            Get started for free
+          </button>
+        </div>
+      </div>
+
+      <img
+        class="illustration1 ml-40 hidden md:flex mb-40"
+        src="./img/illustration-1.svg"
+        alt=""
+      />
+    </div>
+    <!-- Sec Intro -->
+    <div class="flex Sec-Intro">
+      <div class="lg:ml-20 md:ml-20">
+        <img
+          class="illustration4 md:hidden sm:flex ml-16"
+          src="img/illustration-2.svg"
+          alt=""
+        />
+        <div class="hidden md:flex">
+          <h1 class="sec-introh1 text-3xl text-VeryDarkBlue font-bold">
+            Stay productive wherever you are
+          </h1>
+        </div>
+
+        <div class="md:hidden sm:flex text-center">
+          <h1
+            class="sec-introh2 text-2xl text-center text-VeryDarkBlue font-bold"
+          >
+            Stay productive wherever you are
+          </h1>
+        </div>
+        <div class="hidden md:flex">
+          <p class="mb-5 text-VeryDarkBlue text-1xl mt-10">
+            Never let location be an issue when accesing your files. Fylo has
+            you
+            <br />
+            covered for all of your file storage needs.
+          </p>
+        </div>
+
+        <div class="md:hidden sm:flex">
+          <p class="mb-5 text-VeryDarkBlue text-1xl mt-10 ml-5">
+            Never let location be an issue when accesing your files. Fylo has
+            you
+            <br />
+            covered for all of your file storage needs.
+          </p>
+        </div>
+        <div class="hidden md:flex">
+          <p class="mb-5 text-VeryDarkBlue text-1xl">
+            Suerely share files and folders with friends, family and colleagues
+            for
+            <br />
+            live collaboration. No email attachment required.
+          </p>
+        </div>
+        <div class="md:hidden sm:flex">
+          <p class="mb-5 text-VeryDarkBlue text-1xl ml-5">
+            Suerely share files and folders with friends, family and colleagues
+            for
+            <br />
+            live collaboration. No email attachment required.
+          </p>
+        </div>
+        <div class="hidden md:flex">
+          <div class="flex underline text-VeryDarkBlue">
+            <a href="#" class="text-ModerateCyan">See how fylo work</a>
+            <img class="h-5 mt-1" src="./img/icon-arrow.svg" alt="" />
+          </div>
+        </div>
+        <div class="md:hidden sm:flex">
+          <div class="flex underline text-VeryDarkBlue text-center">
+            <a href="#" class="text-ModerateCyan text-center ml-40"
+              >See how fylo work</a
+            >
+            <img class="h-5 mt-1" src="./img/icon-arrow.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <img
+        class="illustration3 ml-20 hidden md:flex"
+        src="img/illustration-2.svg"
+        alt=""
+      />
+    </div>
+
+    <!-- Mid Footer -->
+
+    <div class="hidden md:flex">
+      <div class="bg-DesaturatedBlue flex w-full p-10 mt-20">
+        <div class="block">
+          <h1 class="text-white font-bold text-3xl ml-10">
+            Get Early access today
+          </h1>
+          <p class="text-white ml-10 text-1xl mt-5">
+            It only take minute to signup and our fee starter tire is <br />
+            extremely generous. If you have any questions, our support team
+            <br />
+            will be happy to help you.
+          </p>
+        </div>
+        <div>
+          <form>
+            <div class="ml-12 flex space-x-3 mt-9 w-11/12 h-14 ml-96">
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-md focus:outline-none"
+                placeholder="email@example.com"
+              />
+            </div>
+          </form>
+          <button
+            class="ml-12 w-60 mt-5 h-14 px-6 py-2 text-white rounded-md bg-BrightBlue focus:outline-none ml-96"
+          >
+            Get started for free
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:hidden sm:flex">
+      <div class="bg-DesaturatedBlue input1 mt-20 p-10 lg:mr-96 w-full">
+        <h1 class="text-center text-white font-bold text-3xl mb-10">
+          Get Early access today
+        </h1>
+        <p class="text-white text-center text-xl">
+          It only take minute to signup and our <br />
+          fee starter tire is extremely generous. If <br />
+          you have any questions, our support team <br />
+          will be happy to help you.
+        </p>
+        <div>
+          <form>
+            <div class="ml-5 flex space-x-3 mt-9 w-96 h-14">
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-md focus:outline-none"
+                placeholder="email@example.com"
+              />
+            </div>
+          </form>
+          <button
+            class="ml-5 w-96 mt-5 h-14 px-6 py-2 text-white rounded-md bg-BrightBlue focus:outline-none"
+          >
+            Get started for free
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="input-footer1">
+      <div class="hidden md:flex">
+        <div class="bg-VeryDarkBlue p-20 flex w-full .input-footer footer">
+          <div class="block">
+            <img class="ml-20 mb-10 mt-10" src="./img/logo-white.svg" alt="" />
+            <div class="block">
+              <div class="flex ml-10 mr-5 mt-5">
+                <img
+                  class="phone ml-10 mr-5"
+                  src="./img/icon-phone.svg"
+                  alt=""
+                />
+                <p class="text-white">Phone:+1-543-123-4567</p>
+              </div>
+              <div class="flex ml-10 mr-5 mt-5">
+                <img
+                  class="email ml-10 mr-5 w-5 h-5"
+                  src="img/icon-email.svg"
+                  alt=""
+                />
+                <p class="text-white">examplefylo@fylo.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="block mr-72 ml-40">
+            <ul class="text-white text-xl mt-32">
+              <li class="mb-5">About Us</li>
+              <li class="mb-5">Jobs</li>
+              <li class="mb-5">Press</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="block ml-20">
+            <ul class="text-white text-xl mt-24 ml-10 mt-32">
+              <li class="mb-5">Contact Us</li>
+              <li class="mb-5">Terms</li>
+              <li class="mb-5">Privacy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Footer -->
+    <div>
+      <div class="md:hidden sm:flex">
+        <div class="bg-VeryDarkBlue p-20 w-full .input-footer footer">
+          <img src="./img/logo-white.svg" alt="" />
+          <div class="flex mt-10 mb-5 mr-5">
+            <img class="phone mr-5" src="./img/icon-phone.svg" alt="" />
+            <p class="text-white">Phone:+1-543-123-4567</p>
+          </div>
+          <div class="flex mr-5 mt-5">
+            <img class="email mr-5 w-5 h-5" src="img/icon-email.svg" alt="" />
+            <p class="text-white">examplefylo@fylo.com</p>
+          </div>
+          <div class="block">
+            <ul class="text-white text-xl mt-32">
+              <li class="mb-5">About Us</li>
+              <li class="mb-5">Jobs</li>
+              <li class="mb-5">Press</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="block ">
+            <ul class="text-white text-xl mt-24 m mt-32">
+              <li class="mb-5">Contact Us</li>
+              <li class="mb-5">Terms</li>
+              <li class="mb-5">Privacy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
